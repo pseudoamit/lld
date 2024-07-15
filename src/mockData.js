@@ -29,6 +29,16 @@ export const commentsDetails = [
               {
                 username: "Rakesh Ghosh",
                 comment: "1st nested reply on comment 1",
+                replies: [
+                  {
+                    username: "Rakesh Ghosh",
+                    comment: "1st nested reply on comment 1",
+                  },
+                  {
+                    username: "Sujoy dey",
+                    comment: "2nd nested reply on comment 1",
+                  },
+                ],
               },
               {
                 username: "Sujoy dey",
