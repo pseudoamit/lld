@@ -1,0 +1,22 @@
+.comment-root-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  border-left: 1px solid #777;
+}
+
+.comment-content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.replies-wrapper {
+  margin: 1rem 0 1rem 2rem;
+}

@@ -1,0 +1,17 @@
+.accordion-item-wrapper {
+}
+
+.accordion-item-header {
+  padding: 1rem 0.5rem;
+  background-color: rgb(196, 180, 161);
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-item-body {
+  padding: 0.5rem 0.5rem;
+}
+
+.down-key-icon {
+  color: #fff;
+}

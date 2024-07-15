@@ -1,0 +1,15 @@
+.card-wrapper {
+  color: #fff;
+  width: 8rem;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+  border: 1px solid #777;
+}
+
+.img-meme {
+  width: 8rem;
+  height: 9rem;
+}
