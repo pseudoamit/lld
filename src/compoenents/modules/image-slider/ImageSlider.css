@@ -1,0 +1,32 @@
+.slider-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.left-slider {
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.slider-image-wrapper {
+  margin: auto;
+}
+
+.slider-image-wrapper img {
+  /* object-fit: contain; */
+
+  height: 20rem;
+  width: 40rem;
+  /* object-fit: cover; */
+}
+
+.right-slider {
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}

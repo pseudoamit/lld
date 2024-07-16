@@ -8,6 +8,7 @@ import Login from "./compoenents/modules/login/Login";
 import ProtectedRoute from "./compoenents/ProtectedRoute";
 import Accordion from "./compoenents/common_components/Accordion";
 import Comments from "./compoenents/modules/comments/Comments";
+import ImageSlider from "./compoenents/modules/image-slider/ImageSlider";
 
 const App = () => {
   const [language, setLanguage] = useState("en");
@@ -31,6 +32,7 @@ const App = () => {
             <Route path="/login" element={<Login />}></Route>
             <Route path="/accordion" element={<Accordion />}></Route>
             <Route path="/comments" element={<Comments />}></Route>
+            <Route path="/image-slider" element={<ImageSlider />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>
