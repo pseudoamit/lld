@@ -10,6 +10,7 @@ import Accordion from "./compoenents/common_components/Accordion";
 import Comments from "./compoenents/modules/comments/Comments";
 import ImageSlider from "./compoenents/modules/image-slider/ImageSlider";
 import Pagination from "./compoenents/modules/server-side-pagination/Pagination";
+import LiveChat from "./compoenents/modules/live-chat/LiveChat";
 
 const App = () => {
   const [language, setLanguage] = useState("en");
@@ -35,6 +36,7 @@ const App = () => {
             <Route path="/comments" element={<Comments />}></Route>
             <Route path="/image-slider" element={<ImageSlider />}></Route>
             <Route path="/pagination" element={<Pagination />}></Route>
+            <Route path="/live-chat" element={<LiveChat />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>

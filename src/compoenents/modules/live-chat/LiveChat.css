@@ -1,0 +1,16 @@
+.live-stream-chat-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 96vw;
+  margin: 0 auto;
+}
+
+.live-stream-video-section {
+  display: flex;
+  width: 70%;
+}
+
+.live-stream-chat-section {
+  display: flex;
+  width: 30%;
+}

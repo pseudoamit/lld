@@ -19,6 +19,7 @@ const Header = ({ changeLanguage }) => {
           <a href="/comments">Nested Comment</a>
           <a href="/image-slider">Image SLider</a>
           <a href="/pagination">Pagination</a>
+          <a href="/live-chat">Live Chat</a>
         </nav>
         <select onChange={onChangeHandler}>
           <option value="en">English</option>
